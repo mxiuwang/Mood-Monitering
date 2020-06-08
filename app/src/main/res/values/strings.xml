@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MoodTracker</string>
+    <string name="mood_monitor">Mood Monitor</string>
+    <string name="record_an_activity">Record an Activity</string>
 </resources>
