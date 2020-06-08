@@ -7,7 +7,7 @@
     tools:context=".MakeEntry">
 
     <EditText
-        android:id="@+id/hoursSleptEntryHomepage"
+        android:id="@+id/hoursSleptEntry"
         android:layout_width="158dp"
         android:layout_height="66dp"
         android:layout_marginStart="32dp"
@@ -32,4 +32,15 @@
         android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/activitySubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="143dp"
+        android:onClick="clickSubmit"
+        android:text="Submit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hoursSleptEntry" />
 </androidx.constraintlayout.widget.ConstraintLayout>
