@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.EditText;
 
 public class MakeEntry extends AppCompatActivity {
-
+//test comment scott
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
